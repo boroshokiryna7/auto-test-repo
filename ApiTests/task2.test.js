@@ -1,6 +1,6 @@
 import { buildRequest, getPostWithCustomHeaders } from './task2.js';
 
-describe('Request with Headers and Params', () => {
+describe('Request with headers and Params', () => {
     
     it('should include params in request', () => {
         const request = buildRequest(

@@ -17,7 +17,7 @@ export async function FetchBadURL() {
         }
         return {
             success: false,
-            message: 'Error occurred'
+            message: 'Error Occurred'
         };
     }
 } 

@@ -4,7 +4,7 @@ export async function getPostWithCustomHeaders(postId, customHeaders = {}) {
     
     const params = { id: postId };
     const headers = {
-        'Authorization': 'Bearer mytoken',
+        'Authorization': 'Bearer mytokens',
         ...customHeaders
     };
     

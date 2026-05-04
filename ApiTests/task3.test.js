@@ -2,7 +2,6 @@ import * as api from './task3.js';
 
 describe('API Request Mocking Tests', () => {
     
-    // Mock data for successful responses
     const mockUser = {
         id: 1,
         name: 'John Doe',
@@ -21,7 +20,7 @@ describe('API Request Mocking Tests', () => {
         userId: 1
     };
 
-    // Test data structures and validation
+   
     it('should have correct User data structure', () => {
         expect(mockUser).toHaveProperty('id');
         expect(mockUser).toHaveProperty('name');
